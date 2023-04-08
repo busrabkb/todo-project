@@ -1,0 +1,28 @@
+version: "3"
+services:
+  db:
+    image: couchbase
+    deploy:
+      replicas: 1
+    ports:
+      - 8091:8091
+      - 8092:8092
+      - 8093:8093
+      - 8094:8094
+      - 11210:11210
+  backend:
+          image: demo
+          container_name: demo
+          build:
+            context: ./todolist
+          ports:
+            - "9000:80"
+  frontend:
+            image: demo-ui
+            container_name: demo-ui
+            build:
+              context: ./todo-ui
+            ports:
+              - "4200:80"
+            depends_on:
+              - backend

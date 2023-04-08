@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.todo.demo.DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.409 s <<< FAILURE! - in com.todo.demo.DemoApplicationTests
+contextLoads  Time elapsed: 0.035 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'couchbaseBucket' defined in class path resource [com/todo/demo/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.couchbase.client.java.Bucket]: Factory method 'couchbaseClient' threw exception; nested exception is java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.couchbase.client.java.Bucket]: Factory method 'couchbaseClient' threw exception; nested exception is java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+Caused by: java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+

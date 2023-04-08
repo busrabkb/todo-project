@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.todo.demo.DemoApplicationTests" time="9.409" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\ACER\Downloads\todo-proj\todolist\target\test-classes;C:\Users\ACER\Downloads\todo-proj\todolist\target\classes;C:\Users\ACER\.m2\repository\org\springframework\data\spring-data-couchbase\3.2.3.RELEASE\spring-data-couchbase-3.2.3.RELEASE.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-context\5.3.27-SNAPSHOT\spring-context-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-aop\5.3.27-SNAPSHOT\spring-aop-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-beans\5.3.27-SNAPSHOT\spring-beans-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-expression\5.3.27-SNAPSHOT\spring-expression-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-web\5.3.27-SNAPSHOT\spring-web-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-tx\5.3.27-SNAPSHOT\spring-tx-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\data\spring-data-commons\2.7.11-SNAPSHOT\spring-data-commons-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.5\jackson-databind-2.13.5.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.5\jackson-annotations-2.13.5.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.5\jackson-core-2.13.5.jar;C:\Users\ACER\.m2\repository\com\couchbase\client\encryption\1.0.0\encryption-1.0.0.jar;C:\Users\ACER\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-starter-data-couchbase\2.0.0.RELEASE\spring-boot-starter-data-couchbase-2.0.0.RELEASE.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.11-SNAPSHOT\spring-boot-starter-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot\2.7.11-SNAPSHOT\spring-boot-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.11-SNAPSHOT\spring-boot-autoconfigure-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.11-SNAPSHOT\spring-boot-starter-logging-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\ch\qos\logback\logback-classic\1.2.12\logback-classic-1.2.12.jar;C:\Users\ACER\.m2\repository\ch\qos\logback\logback-core\1.2.12\logback-core-1.2.12.jar;C:\Users\ACER\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\ACER\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\ACER\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\ACER\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\ACER\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\ACER\.m2\repository\com\couchbase\client\java-client\2.0.0\java-client-2.0.0.jar;C:\Users\ACER\.m2\repository\com\couchbase\client\core-io\1.0.0\core-io-1.0.0.jar;C:\Users\ACER\.m2\repository\io\reactivex\rxjava\1.3.8\rxjava-1.3.8.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-swagger2\3.0.0\springfox-swagger2-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-spi\3.0.0\springfox-spi-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-core\3.0.0\springfox-core-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-schema\3.0.0\springfox-schema-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-swagger-common\3.0.0\springfox-swagger-common-3.0.0.jar;C:\Users\ACER\.m2\repository\io\swagger\core\v3\swagger-annotations\2.1.2\swagger-annotations-2.1.2.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-spring-web\3.0.0\springfox-spring-web-3.0.0.jar;C:\Users\ACER\.m2\repository\io\github\classgraph\classgraph\4.8.83\classgraph-4.8.83.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-spring-webmvc\3.0.0\springfox-spring-webmvc-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-spring-webflux\3.0.0\springfox-spring-webflux-3.0.0.jar;C:\Users\ACER\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\ACER\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\ACER\.m2\repository\org\springframework\plugin\spring-plugin-metadata\2.0.0.RELEASE\spring-plugin-metadata-2.0.0.RELEASE.jar;C:\Users\ACER\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\ACER\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\ACER\.m2\repository\org\mapstruct\mapstruct\1.3.1.Final\mapstruct-1.3.1.Final.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-swagger-ui\3.0.0\springfox-swagger-ui-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-boot-starter\3.0.0\springfox-boot-starter-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-oas\3.0.0\springfox-oas-3.0.0.jar;C:\Users\ACER\.m2\repository\io\swagger\core\v3\swagger-models\2.1.2\swagger-models-2.1.2.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-data-rest\3.0.0\springfox-data-rest-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-bean-validators\3.0.0\springfox-bean-validators-3.0.0.jar;C:\Users\ACER\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.7.11-SNAPSHOT\spring-boot-starter-test-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-test\2.7.11-SNAPSHOT\spring-boot-test-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.7.11-SNAPSHOT\spring-boot-test-autoconfigure-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\ACER\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\ACER\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\ACER\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\ACER\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ACER\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ACER\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\ACER\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ACER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ACER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ACER\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\ACER\.m2\repository\net\bytebuddy\byte-buddy\1.12.23\byte-buddy-1.12.23.jar;C:\Users\ACER\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.23\byte-buddy-agent-1.12.23.jar;C:\Users\ACER\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\ACER\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;C:\Users\ACER\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\ACER\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-core\5.3.27-SNAPSHOT\spring-core-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-jcl\5.3.27-SNAPSHOT\spring-jcl-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-test\5.3.27-SNAPSHOT\spring-test-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Istanbul"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ACER\AppData\Local\Temp\surefire5864278542639568657\surefirebooter1341107237168078851.jar C:\Users\ACER\AppData\Local\Temp\surefire5864278542639568657 2023-04-08T01-20-24_041-jvmRun1 surefire7779557461761136139tmp surefire_05539960588694245337tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ACER\Downloads\todo-proj\todolist\target\test-classes;C:\Users\ACER\Downloads\todo-proj\todolist\target\classes;C:\Users\ACER\.m2\repository\org\springframework\data\spring-data-couchbase\3.2.3.RELEASE\spring-data-couchbase-3.2.3.RELEASE.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-context\5.3.27-SNAPSHOT\spring-context-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-aop\5.3.27-SNAPSHOT\spring-aop-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-beans\5.3.27-SNAPSHOT\spring-beans-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-expression\5.3.27-SNAPSHOT\spring-expression-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-web\5.3.27-SNAPSHOT\spring-web-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-tx\5.3.27-SNAPSHOT\spring-tx-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\data\spring-data-commons\2.7.11-SNAPSHOT\spring-data-commons-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.5\jackson-databind-2.13.5.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.5\jackson-annotations-2.13.5.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.5\jackson-core-2.13.5.jar;C:\Users\ACER\.m2\repository\com\couchbase\client\encryption\1.0.0\encryption-1.0.0.jar;C:\Users\ACER\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-starter-data-couchbase\2.0.0.RELEASE\spring-boot-starter-data-couchbase-2.0.0.RELEASE.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.11-SNAPSHOT\spring-boot-starter-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot\2.7.11-SNAPSHOT\spring-boot-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.11-SNAPSHOT\spring-boot-autoconfigure-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.11-SNAPSHOT\spring-boot-starter-logging-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\ch\qos\logback\logback-classic\1.2.12\logback-classic-1.2.12.jar;C:\Users\ACER\.m2\repository\ch\qos\logback\logback-core\1.2.12\logback-core-1.2.12.jar;C:\Users\ACER\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\ACER\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\ACER\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\ACER\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\ACER\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\ACER\.m2\repository\com\couchbase\client\java-client\2.0.0\java-client-2.0.0.jar;C:\Users\ACER\.m2\repository\com\couchbase\client\core-io\1.0.0\core-io-1.0.0.jar;C:\Users\ACER\.m2\repository\io\reactivex\rxjava\1.3.8\rxjava-1.3.8.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-swagger2\3.0.0\springfox-swagger2-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-spi\3.0.0\springfox-spi-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-core\3.0.0\springfox-core-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-schema\3.0.0\springfox-schema-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-swagger-common\3.0.0\springfox-swagger-common-3.0.0.jar;C:\Users\ACER\.m2\repository\io\swagger\core\v3\swagger-annotations\2.1.2\swagger-annotations-2.1.2.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-spring-web\3.0.0\springfox-spring-web-3.0.0.jar;C:\Users\ACER\.m2\repository\io\github\classgraph\classgraph\4.8.83\classgraph-4.8.83.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-spring-webmvc\3.0.0\springfox-spring-webmvc-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-spring-webflux\3.0.0\springfox-spring-webflux-3.0.0.jar;C:\Users\ACER\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\ACER\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\ACER\.m2\repository\org\springframework\plugin\spring-plugin-metadata\2.0.0.RELEASE\spring-plugin-metadata-2.0.0.RELEASE.jar;C:\Users\ACER\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\ACER\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\ACER\.m2\repository\org\mapstruct\mapstruct\1.3.1.Final\mapstruct-1.3.1.Final.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-swagger-ui\3.0.0\springfox-swagger-ui-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-boot-starter\3.0.0\springfox-boot-starter-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-oas\3.0.0\springfox-oas-3.0.0.jar;C:\Users\ACER\.m2\repository\io\swagger\core\v3\swagger-models\2.1.2\swagger-models-2.1.2.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-data-rest\3.0.0\springfox-data-rest-3.0.0.jar;C:\Users\ACER\.m2\repository\io\springfox\springfox-bean-validators\3.0.0\springfox-bean-validators-3.0.0.jar;C:\Users\ACER\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.7.11-SNAPSHOT\spring-boot-starter-test-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-test\2.7.11-SNAPSHOT\spring-boot-test-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.7.11-SNAPSHOT\spring-boot-test-autoconfigure-2.7.11-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\ACER\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\ACER\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\ACER\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\ACER\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ACER\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ACER\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\ACER\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ACER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ACER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ACER\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\ACER\.m2\repository\net\bytebuddy\byte-buddy\1.12.23\byte-buddy-1.12.23.jar;C:\Users\ACER\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.23\byte-buddy-agent-1.12.23.jar;C:\Users\ACER\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\ACER\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;C:\Users\ACER\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\ACER\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-core\5.3.27-SNAPSHOT\spring-core-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-jcl\5.3.27-SNAPSHOT\spring-jcl-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\springframework\spring-test\5.3.27-SNAPSHOT\spring-test-5.3.27-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ACER"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\ACER\Downloads\todo-proj\todolist"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ACER\AppData\Local\Temp\surefire5864278542639568657\surefirebooter1341107237168078851.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="ACER"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ACER\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ACER\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\ACER\Downloads\todo-proj\todolist"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\ACER\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\bin;;C:\Users\ACER\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.todo.demo.DemoApplicationTests" time="0.035">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'couchbaseBucket' defined in class path resource [com/todo/demo/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.couchbase.client.java.Bucket]: Factory method 'couchbaseClient' threw exception; nested exception is java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.couchbase.client.java.Bucket]: Factory method 'couchbaseClient' threw exception; nested exception is java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+Caused by: java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+</error>
+    <system-out><![CDATA[01:20:26.723 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:20:26.780 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:20:26.899 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.todo.demo.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:20:26.958 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.todo.demo.DemoApplicationTests], using SpringBootContextLoader
+01:20:26.988 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.todo.demo.DemoApplicationTests]: class path resource [com/todo/demo/DemoApplicationTests-context.xml] does not exist
+01:20:26.989 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.todo.demo.DemoApplicationTests]: class path resource [com/todo/demo/DemoApplicationTestsContext.groovy] does not exist
+01:20:26.989 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.todo.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:20:26.995 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.todo.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:20:27.192 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.todo.demo.DemoApplicationTests]
+01:20:27.480 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\ACER\Downloads\todo-proj\todolist\target\classes\com\todo\demo\DemoApplication.class]
+01:20:27.492 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.todo.demo.DemoApplication for test class com.todo.demo.DemoApplicationTests
+01:20:28.269 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.todo.demo.DemoApplicationTests]: using defaults.
+01:20:28.270 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:20:28.339 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+01:20:28.408 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1caa0244, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7ce026d3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7ce69770, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1750fbeb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b247367, org.springframework.test.context.transaction.TransactionalTestExecutionListener@268f106e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6e9a5ed8, org.springframework.test.context.event.EventPublishingTestExecutionListener@7e057f43, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6c284af, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5890e879, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6440112d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@31ea9581, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@231f98ef, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7c137fd5]
+01:20:28.420 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@303cf2ba testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@76494737 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.todo.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@694abbdc, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4f18837a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@245b4bdc, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@595b007d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1623b78d, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2b98378d], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+01:20:28.451 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@303cf2ba testClass = DemoApplicationTests, testInstance = com.todo.demo.DemoApplicationTests@7bd7d6d6, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@76494737 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.todo.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@694abbdc, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4f18837a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@245b4bdc, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@595b007d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1623b78d, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2b98378d], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::      (v2.7.11-SNAPSHOT)
+
+2023-04-08 01:20:29.850  INFO 16184 --- [           main] com.todo.demo.DemoApplicationTests       : Starting DemoApplicationTests using Java 1.8.0_291 on LAPTOP-PIRUR769 with PID 16184 (started by ACER in C:\Users\ACER\Downloads\todo-proj\todolist)
+2023-04-08 01:20:29.853  INFO 16184 --- [           main] com.todo.demo.DemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2023-04-08 01:20:31.719  INFO 16184 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Couchbase repositories in DEFAULT mode.
+2023-04-08 01:20:31.910  INFO 16184 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 1 Couchbase repository interfaces.
+2023-04-08 01:20:33.727  INFO 16184 --- [           main] com.couchbase.client.core.CouchbaseCore  : CoreEnvironment: {sslEnabled=false, sslKeystoreFile='null', sslKeystorePassword='null', queryEnabled=false, queryPort=8093, bootstrapHttpEnabled=true, bootstrapCarrierEnabled=true, bootstrapHttpDirectPort=8091, bootstrapHttpSslPort=18091, bootstrapCarrierDirectPort=11210, bootstrapCarrierSslPort=11207, ioPoolSize=8, computationPoolSize=8, responseBufferSize=16384, requestBufferSize=16384, kvServiceEndpoints=1, viewServiceEndpoints=1, queryServiceEndpoints=1, ioPool=NioEventLoopGroup, coreScheduler=CoreScheduler, packageNameAndVersion=couchbase-java-client/2.0.0 (git: 2.0.0-beta-14-gbe5dc12-dirty)}
+2023-04-08 01:20:33.984  INFO 16184 --- [      cb-io-1-1] com.couchbase.client.core.node.Node      : Connected to Node kubernetes.docker.internal
+2023-04-08 01:20:34.475  WARN 16184 --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'couchbaseBucket' defined in class path resource [com/todo/demo/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.couchbase.client.java.Bucket]: Factory method 'couchbaseClient' threw exception; nested exception is java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+2023-04-08 01:20:34.505  INFO 16184 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-08 01:20:34.603 ERROR 16184 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration.couchbaseClient(AbstractCouchbaseConfiguration.java:140)
+
+The following method did not exist:
+
+    com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+
+The calling method's class, org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration, was loaded from the following location:
+
+    jar:file:/C:/Users/ACER/.m2/repository/org/springframework/data/spring-data-couchbase/3.2.3.RELEASE/spring-data-couchbase-3.2.3.RELEASE.jar!/org/springframework/data/couchbase/config/AbstractCouchbaseConfiguration.class
+
+The called method's class, com.couchbase.client.java.Cluster, is available from the following locations:
+
+    jar:file:/C:/Users/ACER/.m2/repository/com/couchbase/client/java-client/2.0.0/java-client-2.0.0.jar!/com/couchbase/client/java/Cluster.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.couchbase.client.java.Cluster: file:/C:/Users/ACER/.m2/repository/com/couchbase/client/java-client/2.0.0/java-client-2.0.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration and com.couchbase.client.java.Cluster
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::      (v2.7.11-SNAPSHOT)
+
+2023-04-08 01:20:34.659  INFO 16184 --- [           main] com.todo.demo.DemoApplicationTests       : Starting DemoApplicationTests using Java 1.8.0_291 on LAPTOP-PIRUR769 with PID 16184 (started by ACER in C:\Users\ACER\Downloads\todo-proj\todolist)
+2023-04-08 01:20:34.659  INFO 16184 --- [           main] com.todo.demo.DemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2023-04-08 01:20:35.127  INFO 16184 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Couchbase repositories in DEFAULT mode.
+2023-04-08 01:20:35.140  INFO 16184 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 Couchbase repository interfaces.
+2023-04-08 01:20:35.820  WARN 16184 --- [           main] c.c.client.core.env.CoreEnvironment      : More than 1 Couchbase Environments found (2), this can have severe impact on performance and stability. Reuse environments!
+2023-04-08 01:20:35.841  INFO 16184 --- [           main] com.couchbase.client.core.CouchbaseCore  : CoreEnvironment: {sslEnabled=false, sslKeystoreFile='null', sslKeystorePassword='null', queryEnabled=false, queryPort=8093, bootstrapHttpEnabled=true, bootstrapCarrierEnabled=true, bootstrapHttpDirectPort=8091, bootstrapHttpSslPort=18091, bootstrapCarrierDirectPort=11210, bootstrapCarrierSslPort=11207, ioPoolSize=8, computationPoolSize=8, responseBufferSize=16384, requestBufferSize=16384, kvServiceEndpoints=1, viewServiceEndpoints=1, queryServiceEndpoints=1, ioPool=NioEventLoopGroup, coreScheduler=CoreScheduler, packageNameAndVersion=couchbase-java-client/2.0.0 (git: 2.0.0-beta-14-gbe5dc12-dirty)}
+2023-04-08 01:20:35.867  INFO 16184 --- [      cb-io-5-1] com.couchbase.client.core.node.Node      : Connected to Node kubernetes.docker.internal
+2023-04-08 01:20:35.902  WARN 16184 --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'couchbaseBucket' defined in class path resource [com/todo/demo/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.couchbase.client.java.Bucket]: Factory method 'couchbaseClient' threw exception; nested exception is java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+2023-04-08 01:20:35.911  INFO 16184 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-08 01:20:35.917 ERROR 16184 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration.couchbaseClient(AbstractCouchbaseConfiguration.java:140)
+
+The following method did not exist:
+
+    com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+
+The calling method's class, org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration, was loaded from the following location:
+
+    jar:file:/C:/Users/ACER/.m2/repository/org/springframework/data/spring-data-couchbase/3.2.3.RELEASE/spring-data-couchbase-3.2.3.RELEASE.jar!/org/springframework/data/couchbase/config/AbstractCouchbaseConfiguration.class
+
+The called method's class, com.couchbase.client.java.Cluster, is available from the following locations:
+
+    jar:file:/C:/Users/ACER/.m2/repository/com/couchbase/client/java-client/2.0.0/java-client-2.0.0.jar!/com/couchbase/client/java/Cluster.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.couchbase.client.java.Cluster: file:/C:/Users/ACER/.m2/repository/com/couchbase/client/java-client/2.0.0/java-client-2.0.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration and com.couchbase.client.java.Cluster
+
+2023-04-08 01:20:35.931 ERROR 16184 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1750fbeb] to prepare test instance [com.todo.demo.DemoApplicationTests@7bd7d6d6]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.7.11-SNAPSHOT.jar:2.7.11-SNAPSHOT]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) [spring-test-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_291]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_291]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384) ~[na:1.8.0_291]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[na:1.8.0_291]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[na:1.8.0_291]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_291]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_291]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_291]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_291]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_291]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[na:1.8.0_291]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[na:1.8.0_291]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'couchbaseBucket' defined in class path resource [com/todo/demo/Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.couchbase.client.java.Bucket]: Factory method 'couchbaseClient' threw exception; nested exception is java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.11-SNAPSHOT.jar:2.7.11-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.11-SNAPSHOT.jar:2.7.11-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.11-SNAPSHOT.jar:2.7.11-SNAPSHOT]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136) ~[spring-boot-test-2.7.11-SNAPSHOT.jar:2.7.11-SNAPSHOT]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	... 68 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.couchbase.client.java.Bucket]: Factory method 'couchbaseClient' threw exception; nested exception is java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	... 86 common frames omitted
+Caused by: java.lang.NoSuchMethodError: com.couchbase.client.java.Cluster.authenticate(Ljava/lang/String;Ljava/lang/String;)Lcom/couchbase/client/java/Cluster;
+	at org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration.couchbaseClient(AbstractCouchbaseConfiguration.java:140) ~[spring-data-couchbase-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at com.todo.demo.Config$$EnhancerBySpringCGLIB$$a2a2e2a.CGLIB$couchbaseClient$9(<generated>) ~[classes/:na]
+	at com.todo.demo.Config$$EnhancerBySpringCGLIB$$a2a2e2a$$FastClassBySpringCGLIB$$8a03404b.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	at com.todo.demo.Config$$EnhancerBySpringCGLIB$$a2a2e2a.couchbaseClient(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_291]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.27-SNAPSHOT.jar:5.3.27-SNAPSHOT]
+	... 87 common frames omitted
+
+]]></system-out>
+  </testcase>
+</testsuite>
